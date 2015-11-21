@@ -1,0 +1,20 @@
+body{
+	background-image: url("../img/bg4.jpg");
+}
+
+.trans{
+	background: transparent;
+}
+
+.log {
+	padding-top: 385px;
+	padding-left: 420px;
+}
+
+.bn {
+	font-size: 16px;
+}
+.bn:hover {
+	color: white;
+	text-decoration: none;
+}
