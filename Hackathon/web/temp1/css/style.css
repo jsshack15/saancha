@@ -1,0 +1,106 @@
+#trans{
+	background: transparent;
+}
+
+.log {
+	padding-top: 100px;
+	padding-left: 400px;
+}
+
+.bn {
+	font-size: 16px;
+	background-color: transparent;
+}
+.bn:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.lt {
+	font-size: 18px !important;
+	font-family: Comfortaa;
+}
+
+.lt:hover {
+	color: black !important;
+	text-decoration: none !important;
+}
+
+.icons {
+	padding-right: 30px;
+}
+
+.hed {
+	text-align: center;
+}
+
+#san {
+	padding-left: 270px;
+	padding-top: 10px;
+}
+
+.abt-us-txt {
+	font-family: Comfortaa;
+}
+
+p.abt-us-txt {
+	font-size: 16px;
+}
+
+.modal-header, h4, .close {
+      background-color: transparent;
+      color:black;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+
+  .mo {
+  	min-width: 50px;
+  	min-height: 50px;
+  	vertical-align: auto;
+  }
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+  .modal-backdrop *{
+    z-index: -1 !important;
+  }
+
+  .my-mod{
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 80%;
+    padding: 100px 40px;z-index: 50;
+
+    background-color: white;
+  } .my-mod-overlay{
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgba(0,0,0,0.8);
+    z-index: 5;
+  }
+  #bt {
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }

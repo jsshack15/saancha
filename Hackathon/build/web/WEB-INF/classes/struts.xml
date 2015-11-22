@@ -1,0 +1,19 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+        <result-types>
+            <result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult"></result-type>
+        </result-types>
+        <action name="signup" class="backend.RegisterAction">
+            <result type="tiles" name="success">/user.Home</result>
+        </action>
+        <action name="Auth" class="backend.LoginAction">
+            <result type="tiles" name="success">/user.Next</result>
+        </action>
+        
+          </package>
+</struts>
