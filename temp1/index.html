@@ -82,14 +82,18 @@
           <h4><span class="glyphicon glyphicon-pencil"></span>&nbsp;Edit Section</h4>
         </div>
         <div class="modal-body" style="padding:40px 50px;">
-          <input type="color" ng-model="ad">
-                  <input type="number" ng-model="az">
-                   <select ng-model="aq">
-          <option value="volvo">serif</option>
-          <option value="saab">verdana</option>
-          <option value="opel">arial</option>
-          <option value="audi">text</option>
-        </select> 
+            <div>
+                <lable style="font-size:18px;">Navbar Color</lable>&nbsp;&nbsp;&nbsp;<input type="color" ng-model="ad">
+            </div>
+            <div>
+                <label style="font-size:18px;">Logo Size</label>&nbsp;&nbsp;&nbsp;<input type="number" ng-model="az">
+            </div>
+            <select ng-model="aq">
+                <option value="volvo">serif</option>
+                <option value="saab">verdana</option>
+                <option value="opel">arial</option>
+                <option value="audi">text</option>
+            </select> 
         </div>
         <div class="modal-footer">
           <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
@@ -137,7 +141,7 @@
                 <div class="intro-lead-in">Welcome To Your Website!</div>
                 <div class="intro-heading">It's Nice To Meet You</div>
                 <button id="bt" class="btn my-btn btn-default" style="position:relative; width: 20%; height: 65px;" data-toggle="modal" data-target="#MyModal">Edit</button>
-                <a href="#services" class="page-scroll btn btn-xl" style="background-color:orange; border:none;">Tell Me More</a>
+                <a href="#services" class="page-scroll btn btn-xl" style="background-color:orange; border:none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tell Me More</a>
             </div>
         </div>
     </header>
